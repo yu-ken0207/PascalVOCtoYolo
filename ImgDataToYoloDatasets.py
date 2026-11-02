@@ -14,7 +14,7 @@ train_files = image_files[:split_idx]
 val_files = image_files[split_idx:]
 
 # Write to train.txt and val.txt
-with open('test.txt', 'w') as train_f:
+with open('train.txt', 'w') as train_f:
     for file in train_files:
         train_f.write(f"{file}\n")
 
